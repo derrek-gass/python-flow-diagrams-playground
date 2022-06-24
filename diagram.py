@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.append('/path/to/2014_07_13_test')
+
 # diagram.py
 from diagrams import Diagram
 from diagrams.aws.compute import EC2
